@@ -1,6 +1,7 @@
 import {Component, OnInit } from '@angular/core';
 import {CoolChartComponent} from './cool-chart.component';
 import {NavTabComponent} from './shared/nav-tabs.component';
+import {ROUTER_DIRECTIVES} from '@angular/router';
 
 
 @Component({
@@ -8,10 +9,9 @@ import {NavTabComponent} from './shared/nav-tabs.component';
 	template: `
 		<h1 class="ui-widget-header">Jon Likes Primeng</h1>
 		<nav-tabs></nav-tabs>
-    <cool-chart></cool-chart>
 		<router-outlet></router-outlet>
     `,
-    directives: [ CoolChartComponent, NavTabComponent ]
+    directives: [ ROUTER_DIRECTIVES, CoolChartComponent, NavTabComponent ]
 })
 export class AppComponent{
 

@@ -1,15 +1,23 @@
 import { provideRouter, RouterConfig }  from '@angular/router';
 import { CoolChartComponent } from './cool-chart.component';
+import { HomeChartComponent } from './home-chart.component';
 
 const routes: RouterConfig = [
   {
     path: '',
-    component: CoolChartComponent
+    component: CoolChartComponent,
+    name: ''
   },
   {
     path: 'charts',
-    component: CoolChartComponent
+    component: CoolChartComponent,
+    name: 'charts'
   },
+  {
+    path: 'home',
+    component: HomeChartComponent,
+    name: 'home'
+  }
 
 ];
 

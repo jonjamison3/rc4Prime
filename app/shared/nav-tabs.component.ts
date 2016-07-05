@@ -7,7 +7,6 @@ import {Menu, MenuItem} from 'primeng/primeng';
 	template: `
 
     <p-menu [model]="items"></p-menu>
-
     `,
     directives: [  Menu ]
 })
@@ -17,8 +16,8 @@ export class NavTabComponent{
 
      ngOnInit() {
          this.items = [
-             {label: 'charts', icon: 'fa-bar-chart'},
-             {label: 'home', icon: 'fa-home'},
+             {label: 'charts', icon: 'fa-bar-chart', routerLink: ['/charts']},
+             {label: 'home', icon: 'fa-home', routerLink: ['/home']},
             //  {label: 'Documentation', icon: 'fa-book'},
             //  {label: 'Support', icon: 'fa-support'},
             //  {label: 'Social', icon: 'fa-twitter'}

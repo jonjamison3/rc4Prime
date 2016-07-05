@@ -11,14 +11,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var cool_chart_component_1 = require('./cool-chart.component');
 var nav_tabs_component_1 = require('./shared/nav-tabs.component');
+var router_1 = require('@angular/router');
 var AppComponent = (function () {
     function AppComponent() {
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n\t\t<h1 class=\"ui-widget-header\">Jon Likes Primeng</h1>\n\t\t<nav-tabs></nav-tabs>\n    <cool-chart></cool-chart>\n\t\t<router-outlet></router-outlet>\n    ",
-            directives: [cool_chart_component_1.CoolChartComponent, nav_tabs_component_1.NavTabComponent]
+            template: "\n\t\t<h1 class=\"ui-widget-header\">Jon Likes Primeng</h1>\n\t\t<nav-tabs></nav-tabs>\n\t\t<router-outlet></router-outlet>\n    ",
+            directives: [router_1.ROUTER_DIRECTIVES, cool_chart_component_1.CoolChartComponent, nav_tabs_component_1.NavTabComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);

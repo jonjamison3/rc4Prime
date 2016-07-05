@@ -15,14 +15,14 @@ var NavTabComponent = (function () {
     }
     NavTabComponent.prototype.ngOnInit = function () {
         this.items = [
-            { label: 'charts', icon: 'fa-bar-chart' },
-            { label: 'home', icon: 'fa-home' },
+            { label: 'charts', icon: 'fa-bar-chart', routerLink: ['/charts'] },
+            { label: 'home', icon: 'fa-home', routerLink: ['/home'] },
         ];
     };
     NavTabComponent = __decorate([
         core_1.Component({
             selector: 'nav-tabs',
-            template: "\n\n    <p-menu [model]=\"items\"></p-menu>\n\n    ",
+            template: "\n\n    <p-menu [model]=\"items\"></p-menu>\n    ",
             directives: [primeng_1.Menu]
         }), 
         __metadata('design:paramtypes', [])
