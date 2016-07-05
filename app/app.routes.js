@@ -5,18 +5,15 @@ var home_chart_component_1 = require('./home-chart.component');
 var routes = [
     {
         path: '',
-        component: cool_chart_component_1.CoolChartComponent,
-        name: ''
+        component: cool_chart_component_1.CoolChartComponent
     },
     {
         path: 'charts',
-        component: cool_chart_component_1.CoolChartComponent,
-        name: 'charts'
+        component: cool_chart_component_1.CoolChartComponent
     },
     {
         path: 'home',
-        component: home_chart_component_1.HomeChartComponent,
-        name: 'home'
+        component: home_chart_component_1.HomeChartComponent
     }
 ];
 exports.APP_ROUTER_PROVIDERS = [

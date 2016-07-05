@@ -5,18 +5,15 @@ import { HomeChartComponent } from './home-chart.component';
 const routes: RouterConfig = [
   {
     path: '',
-    component: CoolChartComponent,
-    name: ''
+    component: CoolChartComponent
   },
   {
     path: 'charts',
-    component: CoolChartComponent,
-    name: 'charts'
+    component: CoolChartComponent
   },
   {
     path: 'home',
-    component: HomeChartComponent,
-    name: 'home'
+    component: HomeChartComponent
   }
 
 ];
