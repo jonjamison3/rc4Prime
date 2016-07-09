@@ -7,7 +7,7 @@ import {ROUTER_DIRECTIVES} from '@angular/router';
 @Component({
 	selector: 'my-app',
 	template: `
-		<h1 class="ui-widget-header">Jon Likes Primeng</h1>
+		<h1 class="ui-widget-header">Jon Codes</h1>
 		<nav-tabs></nav-tabs>
 		<router-outlet></router-outlet>
     `,

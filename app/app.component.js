@@ -18,7 +18,7 @@ var AppComponent = (function () {
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "\n\t\t<h1 class=\"ui-widget-header\">Jon Likes Primeng</h1>\n\t\t<nav-tabs></nav-tabs>\n\t\t<router-outlet></router-outlet>\n    ",
+            template: "\n\t\t<h1 class=\"ui-widget-header\">Jon Codes</h1>\n\t\t<nav-tabs></nav-tabs>\n\t\t<router-outlet></router-outlet>\n    ",
             directives: [router_1.ROUTER_DIRECTIVES, cool_chart_component_1.CoolChartComponent, nav_tabs_component_1.NavTabComponent]
         }), 
         __metadata('design:paramtypes', [])
